@@ -781,7 +781,7 @@ Ghi chú API:
 | **LCM** | LGPL | UDP multicast + shm fallback | Trung bình | — | ✅ `lcm-spy` | Thiên về cross-host multicast; on-host kém hơn shm thuần. |
 | **ROS 2 DDS (Cyclone/Fast)** | Apache | DDS, có shm transport | Trung bình–cao | ✅ | ✅ Rất tốt | Quá khổng lồ cho non-ROS app; phụ thuộc ROS lifecycle. |
 | **DPDK `rte_memzone` / `rte_ring`** | BSD | Hugepage shm + lock-free ring | Cao nhất | ❌ (assume primary process sống) | ❌ | Đòi hugepage, root, EAL init; chỉ hợp lý cho NIC/userspace networking. |
-| **shmfx (this doc)** | (TBD MIT) | Header + lifecycle + ring | Cao (target ≥5M msg/s) | ✅ Robust mutex + janitor + heartbeat | Có (registry + CLI) | Nhỏ gọn, không daemon bắt buộc, có discovery & integrity. **Pick.** |
+| **shmfx (this doc)** | MIT | Header + lifecycle + ring | Cao (target ≥5M msg/s) | ✅ Robust mutex + janitor + heartbeat | Có (registry + CLI) | Nhỏ gọn, không daemon bắt buộc, có discovery & integrity. **Pick.** |
 
 Kết luận: nếu đã dùng iceoryx hoặc DDS thì không cần shmfx. Nếu cần một tầng "lighter than iceoryx, heavier than `shm_open`" thì shmfx vào đúng khe đó.
 

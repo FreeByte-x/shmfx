@@ -5,6 +5,10 @@ It provides a fixed segment header, discovery registry, lifecycle recovery, opti
 
 The distributed logging package under `apps/logging/` is a reference app. Core `libshmfx` does not depend on logging.
 
+## License
+
+This project is licensed under the MIT License. See [LICENSE](/apps/source/sharemem/LICENSE).
+
 ## Build
 
 ```bash
