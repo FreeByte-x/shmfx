@@ -85,7 +85,7 @@
 | UC2 | 1 producer → N consumer (broadcast telemetry, future SPMC) | 1 prod, 4–16 consumer, tốc độ ms scale |
 | UC3 | Shared KV cache giữa các process worker | đọc nhiều, ghi ít, control plane qua robust mutex |
 | UC4 | Tooling `shmfxctl ls/inspect` đọc registry + header | low frequency |
-| UC5 | Reference app Distributed Logging | Dùng UC1; thiết kế riêng ở `docs/03_LOGGING_APP.md` |
+| UC5 | Reference app Distributed Logging | Dùng UC1; thiết kế riêng ở `03_LOGGING_APP.md` |
 
 ### 2.2 Functional requirements
 

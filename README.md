@@ -17,7 +17,15 @@ cmake --build build
 ctest --test-dir build --output-on-failure
 ```
 
-Usage guide: [docs/04_USAGE.md](docs/04_USAGE.md).
+English documentation:
+
+- [Usage guide](docs/en/04_USAGE.md)
+- [Core design](docs/en/01_DESIGN.md)
+- [Open issues](docs/en/02_OPEN_ISSUES.md)
+- [Logging reference app](docs/en/03_LOGGING_APP.md)
+- [Development plan](docs/en/PLAN.md)
+
+Vietnamese documentation is available under [docs/vi](docs/vi/).
 
 Useful options:
 
@@ -84,4 +92,5 @@ cmake --build build --target ring_benchmark
 - `apps/logging/`: reference logging producer and consumer.
 - `examples/`: core examples.
 - `tests/`: unit tests wired by CMake.
-- `docs/`: design and issue-tracking documents.
+- `docs/en/`: English design, usage, issue-tracking, and plan documents.
+- `docs/vi/`: Vietnamese design, usage, issue-tracking, and plan documents.

@@ -204,4 +204,4 @@ if (!logger) {
 logger.value().info("user=%s login", "alice");
 ```
 
-`LogCenter` discover các ring `/shmfx.log.*`, attach RW, drain batch, và detach khi segment dead. Xem thêm [`apps/logging/README.md`](../apps/logging/README.md).
+`LogCenter` discover các ring `/shmfx.log.*`, attach RW, drain batch, và detach khi segment dead. Xem thêm [`apps/logging/README.md`](../../apps/logging/README.md).
