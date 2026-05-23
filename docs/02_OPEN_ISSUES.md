@@ -1,14 +1,14 @@
-# 04 — Open Issues Backlog (post-v0.3)
+# 02 — Open Issues Backlog (post-v0.3)
 
 > Single source of truth cho các issue còn open sau toàn bộ review v0.1 → v0.3.
-> Reviews [`02_DESIGN_REVIEW.md`](02_DESIGN_REVIEW.md) (v0.1) và [`03_DESIGN_REVIEW.md`](03_DESIGN_REVIEW.md) (v0.2) **frozen** sau v0.3; chi tiết lịch sử còn ở đó. File này là nơi duy nhất track open work từ đây trở đi.
+> Review v0.1/v0.2 đã được fold vào `01_DESIGN.md` và backlog này; file review riêng đã xóa, lịch sử chi tiết xem trong git.
 
 ## Trạng thái sau v0.3
 
 | Source | Resolved | Open |
 |--------|----------|------|
-| `02_DESIGN_REVIEW` (v0.1 review) | **14/14 ✅** — fold hết vào v0.2 / v0.3 | 0 |
-| `03_DESIGN_REVIEW` (v0.2 review) | **12/19 ✅** — `§1.1`, `§1.2`, `§2.1`, `§2.2 partial`, `§2.3`, `§2.5`, `§2.6`, `§2.9`, `§2.10`, `§3.2`, `§3.5`, `§3.7` | 7 |
+| Review v0.1 | **14/14 ✅** — fold hết vào v0.2 / v0.3 | 0 |
+| Review v0.2 | **12/19 ✅** — `§1.1`, `§1.2`, `§2.1`, `§2.2 partial`, `§2.3`, `§2.5`, `§2.6`, `§2.9`, `§2.10`, `§3.2`, `§3.5`, `§3.7` | 7 |
 | **Tổng open** | | **7** |
 
 ## Backlog
@@ -75,5 +75,4 @@ Các OI fold sẵn vào phase tương ứng, không cần thêm design doc trung
 
 1. **Khi resolve một OI**: gạch (`~~OI-XX~~ ✅`) trong bảng + ghi "Resolved in <phase/commit>" cuối row Resolution.
 2. **Khi phát hiện open issue mới**: thêm OI-(N+1) ở *cuối* bảng, **không** re-number.
-3. **02 và 03 frozen** — không sửa nữa, chỉ link tham chiếu.
-4. Khi PLAN.md chuyển sang phase mới, kiểm bảng "Phase mapping" để biết OI nào phải address trong phase đó.
+3. Khi PLAN.md chuyển sang phase mới, kiểm bảng "Phase mapping" để biết OI nào phải address trong phase đó.

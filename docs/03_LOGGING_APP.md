@@ -1,4 +1,4 @@
-# 05 — Reference App: Distributed Logging
+# 03 — Reference App: Distributed Logging
 
 > App/package tham chiếu dùng `libshmfx`. Tài liệu này không định nghĩa API core của framework.
 
@@ -88,4 +88,3 @@ Tên file rotate: `<service>.log.YYYYMMDD-HHMMSS`.
 | `LOGCENTER_IDLE_SLEEP_US` | 200 | Adaptive polling sleep khi không drain được record nào. |
 | `LOG_ROTATE_SIZE` | 256 MiB | File size threshold. |
 | `LOG_FSYNC_BATCH` | 4096 | fsync mỗi N record. |
-

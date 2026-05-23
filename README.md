@@ -17,6 +17,8 @@ cmake --build build
 ctest --test-dir build --output-on-failure
 ```
 
+Usage guide: [docs/04_USAGE.md](docs/04_USAGE.md).
+
 Useful options:
 
 ```bash
